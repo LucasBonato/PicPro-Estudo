@@ -1,0 +1,380 @@
+
+body {
+    background-color: #228664;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(255, 255, 255); 
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 150px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.header figure img {
+    width: 100%;
+    max-width: 140px;
+}
+
+.header .header_logopic {
+    border-right: 1px solid rgb(255, 255, 255);
+    margin-right: 15px;
+}
+
+.sec_conta_details {
+    color: #fff;
+    padding: 60px 0px 30px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec_conta_details_user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sec_conta_details_user p {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.sec_conta_details_user img {
+    width: 100%;
+    max-width: 50px;
+}
+
+.sec_conta_details_user p strong {
+    display: block;
+    font-weight: bold;
+}
+
+.sec_conta_details_user_imagens img{
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.sec_conta_details_saldo {
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.sec_conta_details_saldo p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.sec_conta_details_saldo p strong {
+    display: block;
+    font-weight: 600;
+}
+
+
+.sec_conta_details_saldo p strong img {
+    width: 25px;
+    margin: 0 15px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sec_conta_details_saldo button {
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sec_conta_details_optionstran {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec_conta_details__itemtran {
+    background-color: #1f6f54;
+    width: 170px;
+    height: 177px;
+    border-radius: 20px;
+    padding: 40px 20px;
+    cursor: pointer;
+}
+
+.sec_conta_details__itemtran img {
+    width: 100%;
+    max-width: 40px;
+}
+
+.sec_conta_details__itemtran p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 25px;
+    width: 80px;
+}
+
+.sec_tran {
+    background-color: #FFF;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom: 15px solid #f0f0f0;
+    padding: 30px 0;
+    min-height: 450px;
+}
+
+.sec_tran .container div{
+    display: none;
+}
+
+.sec_tran .container div.mostrar{
+    display: block;
+}
+
+.sec_tran_aviso p {
+    font-size: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    padding: 20px 60px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.sec_tran_aviso img {
+    margin: 30px 0 90px;
+    width: 100%;
+}
+
+.sec_tran_qr {
+    text-align: center;
+}
+
+.sec_tran_qr img {
+    max-width: 180px;
+}
+
+.sec_tran_qr p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.sec_tran_qr button {
+    background-color: #4a8864;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 50px 0 20px;
+    padding: 15px 150px;
+    cursor: pointer;
+}
+
+.sec_tran_qr a {
+    display: block;
+    color: #000;
+    font-weight: bold;
+}
+
+.sec_tran_pix img {
+    width: 100%;
+    max-width: 150px;
+}
+
+.sec_tran_boxopti {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d2d2d2;
+    max-width: 500px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    margin: 20px 0;
+}
+
+.sec_tran_boxopti img {
+    width: 100%;
+    max-width: 70px;
+    margin-right: 10px;
+}
+
+.sec_tran_boxopti p {
+    font-size: 16px;
+    line-height: 15px;
+}
+
+.sec_tran_boleto img {
+    width: 100%;
+    max-width: 80px;
+}
+
+.sec_tran_boleto h2 {
+    font-size: 20px;
+    font-weight:  600;
+}
+
+.sec_tran_boleto p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 20px 0;
+}
+
+.sec_tran_boleto input {
+    width: 100%;
+    background-color: #f4f4f4;
+    font-size: 16px;
+    height: 50px;
+    padding: 0 80px;
+    border-radius: 10px;
+    border: 1px solid #d2d2d2;
+    color: #000;
+    box-sizing: border-box;
+}
+
+.sec_tran_cobrar, .sec_tran_boxopti p{
+    margin-left: 10px;
+}
+
+.sec_tran_cobrar img {
+    width: 100%;
+    max-width: 80px;
+}
+
+.sec_tran_cobrar h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sec_tran_cobrar p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 20px 0;
+}
+
+.sec_tran_cobrar p strong {
+    font-weight: 700;
+    display: block;
+    padding: 5px 0;
+}
+
+.rodape {
+    background-color: #fff;
+}
+
+.rodape_mainmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape_menuitem {
+    text-align: center;
+}
+
+.rodape_menuitem a {
+    color: #000;
+    text-decoration: none;
+}
+
+.rodape_menuitem a img {
+    width: 100%;
+    max-width: 40px;
+}
+
+.rodape_menuitem a p {
+    margin-top: 20px;
+}
+
+.ro_mi_pagar {
+    transform: translateY(-35px);
+}
+
+.ro_mi_pagar a img {
+    max-width: 100px;
+}
+
+.sec_conta_details__itemtran:hover {
+    background-color: #fff;
+    color: #228664;
+}
+
+.sec_conta_details__itemtran figure {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+.qrcode figure {
+    background-image: url("../img/qrcode.png");
+}
+
+.pix figure {
+    background-image: url("../img/pix.png");
+}
+
+.boleto figure {
+    background-image: url("../img/codigo.png");
+    width: 100%;
+    max-width: 66px;
+}
+
+.cobrar figure {
+    background-image: url("../img/cobrar-icon.png");
+    width: 100%;
+    max-width: 68px;
+    height: 55px;
+}
+
+.qrcode:hover figure {
+    background-image: url("../img/qrcode-verde.png");
+}
+
+.pix:hover figure {
+    background-image: url("../img/pix-verde.png");
+}
+
+.boleto:hover figure {
+    background-image: url("../img/boleto-verde.png");
+}
+
+.cobrar:hover figure {
+    background-image: url("../img/cobrar-verde.png");
+}
+
+.sec_conta_details__itemtran figure img {
+    width: 100%;
+    max-width: 25px;
+    height: 20px;
+    opacity: 0;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0db94f;
+    border-radius: 30px;
+}
